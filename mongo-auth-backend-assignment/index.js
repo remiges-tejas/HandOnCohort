@@ -5,7 +5,7 @@ const port = 3001;
 const creteDbConnection = require("./db");
 
 const dbUrlString =
-  "mongodb+srv://tejas:mailpass@cluster0.uml1r.mongodb.net/test-users";
+  "YOUR_MONGO_DB_URL";
 creteDbConnection(dbUrlString);
 
 // middleware that parse the json 
